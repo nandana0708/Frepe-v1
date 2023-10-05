@@ -1,0 +1,77 @@
+.fruit-item{
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.fruit-name{
+    margin-left: 5px;
+    align-self: center;
+    font-size: 16px;
+}
+
+.recBox{
+    display: flex;
+}
+
+#img{
+    width: 60%;
+}
+
+.ings-container{
+    width: 32%;
+    background-color: aliceblue;
+    padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
+
+#recCard{
+    background-color: rgb(246, 175, 127);
+    width: 450px
+}
+
+
+.generate{
+    margin-top: 10px;
+    padding: 0.3rem;
+    font-size: 15px;
+    font-family: 'Poppins';
+    border-radius: 1rem;
+}
+
+.cardcontainer{
+    margin: 0.25rem;
+    background-color: rgb(227, 227, 182);
+    padding: 0.5rem;
+}
+
+.filterText{
+    font-size: 21px;
+    font-weight: 600;
+}
+
+.filterContainer{
+    padding: 0.75rem;
+    margin: 1rem;
+    background-color: whitesmoke;
+    width: 30%;
+    height: auto;
+    box-shadow: 0 4px 0px black;
+    border: 3px solid black;
+    border-right: 5px solid black;
+    overflow: hidden;
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column
+};
+
+
+
+
+
+

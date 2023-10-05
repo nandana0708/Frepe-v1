@@ -1,0 +1,39 @@
+@import "open-props/style";
+@import "open-props/open-props.min.css";
+
+
+.form-img{
+    width: 500px;
+    height:500px;
+    margin-right: 3rem;
+    border-radius: 2rem;
+}
+
+.login-head{
+    margin-bottom: 200px;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+.formcontainer{
+    display: flex;
+    background-color: var(--teal-0);
+    width: 65%;
+    justify-self: center;
+    align-self: center;
+    margin-top: 3rem;
+    padding: 1rem;
+    border-radius: 2rem;
+    box-shadow: var(--shadow-6);
+}
+
+.formgroup{
+    align-items: center;
+    justify-content: center;
+    background-color: aquamarine;
+    padding: 2rem;
+    width: 500px;
+}
+

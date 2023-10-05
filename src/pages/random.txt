@@ -1,0 +1,25 @@
+        <div className='search-filters'>
+          <div className='filter-box'>
+              <FilterNav></FilterNav>
+          </div>
+            <div className='filter-title'>
+              <button className='filterBtn'>🧋</button>
+              <label className='filter'>Beverages</label>
+            </div>
+            <div className='filter-title'>
+              <button className='filterBtn'>💀</button>
+              <label className='filter'>Allergies</label>
+            </div>
+            <div className='filter-title'>
+              <button className='filterBtn'>🍽️</button>
+              <label className='filter'>Meal</label>
+            </div>
+            <div className='filter-title'>
+              <button className='filterBtn'>🥦</button>
+              <label className='filter'>Diets</label>
+            </div>
+            <div className='filter-title'>
+              <button className='filterBtn'>⏰</button>
+              <label className='filter'>Cooking Time</label>
+            </div>
+        </div>

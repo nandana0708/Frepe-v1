@@ -1,0 +1,84 @@
+.postContainer{
+    padding: 0.75rem;
+    background-color: rgb(253, 243, 215);
+    margin: 1rem;
+    width: 440px;
+    min-height: 20rem;
+    box-shadow: 0 4px 0px black;
+    border: 3px solid black;
+    border-right: 5px solid black;
+    overflow: hidden;
+}
+
+.headContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.faStar{
+    height: 22px;
+}
+
+.cardTitle{
+    font-size: 22px;
+    font-weight: 700;
+    width: 75%;
+    height: auto;
+}
+
+.mainContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+}
+
+
+.tagContainer{
+    display: flex;
+    flex-direction: column;
+}
+
+.tag{
+    background-color: rgb(242, 196, 70);
+    margin-bottom: 5px;
+    margin-left: 5px;
+    border-radius: 32px;
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    width: fit-content;
+}
+
+#gluten{
+    color: rgb(231, 230, 230);
+}
+
+#tag1{
+    background-color: rgb(56, 22, 2);
+}
+
+.cardImg{
+    height: 200px;
+    width: 65%;
+    border-radius: 1rem;
+}
+
+.description{
+    font-size: 15px;
+}
+
+.tagLabel{
+    margin: 0.25rem;
+    justify-self: center;
+    margin-right:1rem;
+}
+
+.faCircle{
+    color: white;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+
+
